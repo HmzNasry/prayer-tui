@@ -1,0 +1,10 @@
+[Unit]
+Description=Prayer TUI
+
+[Service]
+ExecStart=/data/prayer-tui/target/release/prayer-tui
+Restart=always
+
+[Install]
+WantedBy=default.target
+
