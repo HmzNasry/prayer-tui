@@ -1,5 +1,27 @@
+# Prayer Time Configuration
+
 city = "Seattle"
 country = "US"
+
+# Calculation Method
+# 0 - Shia Ithna-Ansari
+# 1 - University of Islamic Sciences, Karachi
+# 2 - Islamic Society of North America
+# 3 - Muslim World League
+# 4 - Umm Al-Qura University, Makkah
+# 5 - Egyptian General Authority of Survey
+# 7 - Institute of Geophysics, University of Tehran
+# 8 - Gulf Region
+# 9 - Kuwait
+# 10 - Qatar
+# 11 - Majlis Ugama Islam Singapura, Singapore
+# 12 - Union Organization islamic de France
+# 13 - Diyanet İşleri Başkanlığı, Turkey
+# 14 - Spiritual Administration of Muslims of Russia
 method = 2
+
+# Madhab (School of Thought)
+# 0 - Shafi, Maliki, Hanbali
+# 1 - Hanafi
 madhab = 1
 

@@ -18,12 +18,30 @@ A simple, minimalistic TUI for displaying prayer times in your terminal.
 
 ## Configuration
 
-The application can be configured by editing the `~/.config/prayer-tui/config.toml` file. The following options are available:
+The The application can be configured by editing the `~/.config/prayer-tui/config.toml` file. 
 
-- `city`: Your city.
-- `country`: Your country.
-- `method`: The prayer time calculation method.
-- `madhab`: The madhab (school of thought).
+### Options
+
+- `city`: Your city (e.g., "London").
+- `country`: Your country (e.g., "UK").
+- `method`: The prayer time calculation method. The available options are:
+    - `0`: Shia Ithna-Ansari
+    - `1`: University of Islamic Sciences, Karachi
+    - `2`: Islamic Society of North America
+    - `3`: Muslim World League
+    - `4`: Umm Al-Qura University, Makkah
+    - `5`: Egyptian General Authority of Survey
+    - `7`: Institute of Geophysics, University of Tehran
+    - `8`: Gulf Region
+    - `9`: Kuwait
+    - `10`: Qatar
+    - `11`: Majlis Ugama Islam Singapura, Singapore
+    - `12`: Union Organization islamic de France
+    - `13`: Diyanet İşleri Başkanlığı, Turkey
+    - `14`: Spiritual Administration of Muslims of Russia
+- `madhab`: The madhab (school of thought). The available options are:
+    - `0`: Shafi, Maliki, Hanbali
+    - `1`: Hanafi
 
 ## Uninstallation
 
