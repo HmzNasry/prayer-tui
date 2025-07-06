@@ -1,143 +1,41 @@
 use crossterm::{
     event::{self, Event, KeyCode, KeyEventKind},
-    terminal::{self, EnterAlternateScreen, LeaveAlternateScreen},
-    ExecutableCommand,
 };
 use ratatui::{prelude::*, widgets::*};
-use reqwest::Error;
-use serde::{Deserialize, Serialize};
 use std::{
-    fs::{self, File},
-    io::{self, stdout, Read, Write},
-    path::Path,
+    env,
+    io::{self},
     time::Duration,
 };
+use tokio::process::Command;
 
-use chrono::{Local, NaiveTime, Timelike};
-use notify_rust::Notification;
+use chrono::{Local, NaiveTime};
 
-#[derive(Serialize, Deserialize, Debug)]
-struct Config {
-    city: String,
-    country: String,
-    method: u8,
-    madhab: u8,
-}
+mod app;
+use app::{config, prayers, state, tui::Tui};
 
-#[derive(Deserialize, Debug)]
-struct Data {
-    data: Timings,
-}
+async fn send_notification(summary: &str, body: &str) -> Result<(), Box<dyn std::error::Error>> {
+    let dbus_addr = env::var("DBUS_SESSION_BUS_ADDRESS").unwrap_or_default();
+    let status = Command::new("notify-send")
+        .arg(summary)
+        .arg(body)
+        .env("DBUS_SESSION_BUS_ADDRESS", dbus_addr)
+        .status()
+        .await?;
 
-#[derive(Deserialize, Debug)]
-struct Timings {
-    timings: PrayerTimes,
-}
-
-#[derive(Deserialize, Debug, Clone)]
-#[allow(non_snake_case)]
-struct PrayerTimes {
-    #[serde(rename = "Fajr")]
-    fajr: String,
-    #[serde(rename = "Dhuhr")]
-    dhuhr: String,
-    #[serde(rename = "Asr")]
-    asr: String,
-    #[serde(rename = "Maghrib")]
-    maghrib: String,
-    #[serde(rename = "Isha")]
-    isha: String,
-}
-
-#[derive(Serialize, Deserialize, Debug)]
-struct AppState {
-    notified_prayers: Vec<String>,
-    date: String,
-}
-
-async fn get_prayer_times(config: &Config) -> Result<PrayerTimes, Error> {
-    let url = format!(
-        "https://api.aladhan.com/v1/timingsByCity?city={}&country={}&method={}&madhab={}",
-        config.city,
-        config.country,
-        config.method,
-        config.madhab
-    );
-    let response = reqwest::get(&url).await?.json::<Data>().await?;
-    Ok(response.data.timings)
-}
-
-struct Tui {
-    terminal: Terminal<CrosstermBackend<io::Stdout>>,
-}
-
-impl Tui {
-    fn new() -> Result<Self, io::Error> {
-        let terminal = Terminal::new(CrosstermBackend::new(stdout()))?;
-        Ok(Self { terminal })
+    if !status.success() {
+        return Err(Box::new(io::Error::new(
+            io::ErrorKind::Other,
+            "Failed to send notification",
+        )));
     }
 
-    fn enter(&self) -> Result<(), io::Error> {
-        terminal::enable_raw_mode()?;
-        stdout().execute(EnterAlternateScreen)?;
-        Ok(())
-    }
-
-    fn exit(&self) -> Result<(), io::Error> {
-        stdout().execute(LeaveAlternateScreen)?;
-        terminal::disable_raw_mode()?;
-        Ok(())
-    }
-}
-
-fn load_config() -> Result<Config, io::Error> {
-    let path = Path::new("config.toml");
-    if !path.exists() {
-        let default_config = Config {
-            city: "Seattle".to_string(),
-            country: "US".to_string(),
-            method: 2,
-            madhab: 1,
-        };
-        let toml = toml::to_string(&default_config).unwrap();
-        let mut file = File::create(path)?;
-        file.write_all(toml.as_bytes())?;
-        return Ok(default_config);
-    }
-
-    let mut file = File::open(path)?;
-    let mut contents = String::new();
-    file.read_to_string(&mut contents)?;
-    let config: Config = toml::from_str(&contents).unwrap();
-    Ok(config)
-}
-
-fn load_app_state() -> Result<AppState, io::Error> {
-    let path = Path::new("state.json");
-    if !path.exists() {
-        return Ok(AppState {
-            notified_prayers: Vec::new(),
-            date: Local::now().format("%Y-%m-%d").to_string(),
-        });
-    }
-
-    let mut file = File::open(path)?;
-    let mut contents = String::new();
-    file.read_to_string(&mut contents)?;
-    let state: AppState = serde_json::from_str(&contents)?;
-    Ok(state)
-}
-
-fn save_app_state(state: &AppState) -> Result<(), io::Error> {
-    let path = Path::new("state.json");
-    let json = serde_json::to_string(state)?;
-    let mut file = File::create(path)?;
-    file.write_all(json.as_bytes())?;
     Ok(())
 }
 
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
+    println!("DBUS_SESSION_BUS_ADDRESS: {:?}", env::var("DBUS_SESSION_BUS_ADDRESS"));
     let mut tui = Tui::new()?;
     tui.enter()?;
 
@@ -150,9 +48,10 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
 }
 
 async fn run_app(tui: &mut Tui) -> Result<(), Box<dyn std::error::Error>> {
-    let config = load_config()?;
-    let mut prayer_times = get_prayer_times(&config).await?;
-    let mut app_state = load_app_state()?;
+    send_notification("Prayer TUI", "Starting up...").await?;
+    let config = config::load_config()?;
+    let mut prayer_times = prayers::get_prayer_times(&config).await?;
+    let mut app_state = state::load_app_state()?;
 
     loop {
         let now = Local::now();
@@ -161,10 +60,10 @@ async fn run_app(tui: &mut Tui) -> Result<(), Box<dyn std::error::Error>> {
 
         // Reload prayer times at midnight
         if app_state.date != today_str {
-            prayer_times = get_prayer_times(&config).await?;
+            prayer_times = prayers::get_prayer_times(&config).await?;
             app_state.date = today_str;
             app_state.notified_prayers.clear();
-            save_app_state(&app_state)?;
+            state::save_app_state(&app_state)?;
         }
 
         if event::poll(Duration::from_millis(100))? {
@@ -180,17 +79,27 @@ async fn run_app(tui: &mut Tui) -> Result<(), Box<dyn std::error::Error>> {
             }
         }
 
+        let mut last_prayer_time = NaiveTime::from_hms_opt(0, 0, 0).unwrap();
         let prayers = vec![
-            ("Fajr", NaiveTime::parse_from_str(&prayer_times.fajr, "%H:%M")?),            ("Dhuhr", NaiveTime::parse_from_str(&prayer_times.dhuhr, "%H:%M")?),
-            ("Asr", NaiveTime::parse_from_str(&prayer_times.asr, "%H:%M")?),
-            ("Maghrib", NaiveTime::parse_from_str(&prayer_times.maghrib, "%H:%M")?),
-            ("Isha", NaiveTime::parse_from_str(&prayer_times.isha, "%H:%M")?),
-        ];
-
-        let mut current_prayer_index = 0;
+            ("Fajr", NaiveTime::parse_from_str(&prayer_times.fajr, "%H:%M").unwrap()),
+            ("Dhuhr", NaiveTime::parse_from_str(&prayer_times.dhuhr, "%H:%M").unwrap()),
+            ("Asr", NaiveTime::parse_from_str(&prayer_times.asr, "%H:%M").unwrap()),
+            ("Maghrib", NaiveTime::parse_from_str(&prayer_times.maghrib, "%H:%M").unwrap()),
+            ("Isha", NaiveTime::parse_from_str(&prayer_times.isha, "%H:%M").unwrap()),
+        ].into_iter().map(|(name, time)| {
+            if time < last_prayer_time {
+                (name, time + chrono::Duration::hours(12))
+            } else {
+                last_prayer_time = time;
+                (name, time)
+            }
+        }).collect::<Vec<(&str, NaiveTime)>>();
+        let mut current_prayer_index = prayers.len() - 1;
         for (i, (_, prayer_time)) in prayers.iter().enumerate() {
             if now_time >= *prayer_time {
                 current_prayer_index = i;
+            } else {
+                break;
             }
         }
 
@@ -207,13 +116,12 @@ async fn run_app(tui: &mut Tui) -> Result<(), Box<dyn std::error::Error>> {
         let minutes = time_remaining.num_minutes() % 60;
         let seconds = time_remaining.num_seconds() % 60;
 
-        if time_remaining.num_seconds() > 0 && time_remaining.num_seconds() <= 1 && !app_state.notified_prayers.contains(&next_prayer_name.to_string()) {
-            Notification::new()
-                .summary(&format!("{} Time", next_prayer_name))
-                .body(&format!("It's time for {} prayer.", next_prayer_name))
-                .show()?;
-            app_state.notified_prayers.push(next_prayer_name.to_string());
-            save_app_state(&app_state)?;
+        for (name, prayer_time) in &prayers {
+            if now_time >= *prayer_time && !app_state.notified_prayers.contains(&name.to_string()) {
+                send_notification("Prayer Time", &format!("It's time for {} prayer", name)).await?;
+                app_state.notified_prayers.push(name.to_string());
+                state::save_app_state(&app_state)?;
+            }
         }
 
         tui.terminal.draw(|frame| {

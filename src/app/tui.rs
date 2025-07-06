@@ -1,6 +1,7 @@
 use std::io::{self, stdout};
 
-use crossterm::terminal::{self, EnterAlternateScreen, LeaveAlternateScreen, ExecutableCommand};
+use crossterm::terminal::{self, EnterAlternateScreen, LeaveAlternateScreen};
+use crossterm::ExecutableCommand;
 use ratatui::prelude::*;
 
 pub struct Tui {
