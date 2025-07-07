@@ -6,11 +6,15 @@ cargo build --release
 # Create a symbolic link
 sudo ln -sf $(pwd)/target/release/prayer-tui /usr/local/bin/pt
 
-# Create the systemd service file
-sudo cp prayer-tui.service /etc/systemd/system/
+# Create the systemd user service directory if it doesn't exist
+mkdir -p ~/.config/systemd/user/
 
-# Enable and start the service
-sudo systemctl enable --now prayer-tui.service
+# Create the systemd user service file
+cp prayer-tui.service ~/.config/systemd/user/
+
+# Enable and start the user service
+systemctl --user daemon-reload
+systemctl --user enable --now prayer-tui.service
 
 echo "Prayer TUI has been installed and started."
 

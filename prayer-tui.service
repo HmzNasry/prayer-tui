@@ -1,10 +1,11 @@
 [Unit]
-Description=Prayer TUI
+Description=Prayer TUI Background Service
+After=network.target
 
 [Service]
-ExecStart=/data/prayer-tui/target/release/prayer-tui
+ExecStart=/usr/local/bin/pt --background
 Restart=always
+Type=simple
 
 [Install]
 WantedBy=default.target
-

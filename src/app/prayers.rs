@@ -26,6 +26,10 @@ pub struct PrayerTimes {
     pub maghrib: String,
     #[serde(rename = "Isha")]
     pub isha: String,
+    #[serde(rename = "Sunrise")]
+    pub sunrise: String,
+    #[serde(rename = "Sunset")]
+    pub sunset: String,
 }
 
 pub async fn get_prayer_times(config: &Config) -> Result<PrayerTimes, Error> {
