@@ -1036,11 +1036,444 @@ Checking prayer: Asr at 17:28:00. Current time: 10:36:47.786286413
 Checking prayer: Sunset at 21:08:00. Current time: 10:36:47.786286413
 Checking prayer: Maghrib at 21:08:00. Current time: 10:36:47.786286413
 Checking prayer:Current time: 10:37:04.025076067, Date: 2025-07-07
+NCurrent time: 10:37:47.787468458, Date: 2025-07-07
 Notified prayers: ["Fajr", "Sunrise"]
-Checking prayer: Fajr at 03:17:00. Current time: 10:37:04.025076067
-Checking prayer: Sunrise at 05:20:00. Current time: 10:37:04.025076067
-Checking prayer: Dhuhr at 13:14:00. Current time: 10:37:04.025076067
-Checking prayer: Asr at 17:28:00. Current time: 10:37:04.025076067
-Checking prayer: Sunset at 21:08:00. Current time: 10:37:04.025076067
-Checking prayer: Maghrib at 21:08:00. Current time: 10:37:04.025076067
-Checking prayer: Isha at 23:11:00. Current time: 10:37:04.025076067
+Checking prayer: Fajr at 03:17:00. Current time: 10:37:47.787468458
+Checking prayer: Sunrise at 05:20:00. Current time: 10:37:47.787468458
+Checking prayer: Dhuhr at 13:14:00. Current time: 10:37:47.787468458
+Checking prayer: Asr at 17:28:00. Current time: 10:37:47.787468458
+Checking prayer: Sunset at 21:08:00. Current time: 10:37:47.787468458
+Checking prayer: Maghrib at 21:08:00. Current time: 10:37:47.787468458
+Checking prayer:Current time: 10:38:04.026023938, Date: 2025-07-07
+NCurrent time: 10:38:47.788729527, Date: 2025-07-07
+Notified prayers: ["Fajr", "Sunrise"]
+Checking prayer: Fajr at 03:17:00. Current time: 10:38:47.788729527
+Checking prayer: Sunrise at 05:20:00. Current time: 10:38:47.788729527
+Checking prayer: Dhuhr at 13:14:00. Current time: 10:38:47.788729527
+Checking prayer: Asr at 17:28:00. Current time: 10:38:47.788729527
+Checking prayer: Sunset at 21:08:00. Current time: 10:38:47.788729527
+Checking prayer: Maghrib at 21:08:00. Current time: 10:38:47.788729527
+Checking prayer:Current time: 10:39:04.027735683, Date: 2025-07-07
+NCurrent time: 10:39:47.790609634, Date: 2025-07-07
+Notified prayers: ["Fajr", "Sunrise"]
+Checking prayer: Fajr at 03:17:00. Current time: 10:39:47.790609634
+Checking prayer: Sunrise at 05:20:00. Current time: 10:39:47.790609634
+Checking prayer: Dhuhr at 13:14:00. Current time: 10:39:47.790609634
+Checking prayer: Asr at 17:28:00. Current time: 10:39:47.790609634
+Checking prayer: Sunset at 21:08:00. Current time: 10:39:47.790609634
+Checking prayer: Maghrib at 21:08:00. Current time: 10:39:47.790609634
+Checking prayer:Current time: 10:40:04.029682190, Date: 2025-07-07
+NCurrent time: 10:40:47.792376171, Date: 2025-07-07
+Notified prayers: ["Fajr", "Sunrise"]
+Checking prayer: Fajr at 03:17:00. Current time: 10:40:47.792376171
+Checking prayer: Sunrise at 05:20:00. Current time: 10:40:47.792376171
+Checking prayer: Dhuhr at 13:14:00. Current time: 10:40:47.792376171
+Checking prayer: Asr at 17:28:00. Current time: 10:40:47.792376171
+Checking prayer: Sunset at 21:08:00. Current time: 10:40:47.792376171
+Checking prayer: Maghrib at 21:08:00. Current time: 10:40:47.792376171
+Checking prayer:Current time: 10:41:04.031224811, Date: 2025-07-07
+NCurrent time: 10:41:47.794383237, Date: 2025-07-07
+Notified prayers: ["Fajr", "Sunrise"]
+Checking prayer: Fajr at 03:17:00. Current time: 10:41:47.794383237
+Checking prayer: Sunrise at 05:20:00. Current time: 10:41:47.794383237
+Checking prayer: Dhuhr at 13:14:00. Current time: 10:41:47.794383237
+Checking prayer: Asr at 17:28:00. Current time: 10:41:47.794383237
+Checking prayer: Sunset at 21:08:00. Current time: 10:41:47.794383237
+Checking prayer: Maghrib at 21:08:00. Current time: 10:41:47.794383237
+Checking prayer:Current time: 10:42:04.032158583, Date: 2025-07-07
+NCurrent time: 10:42:47.796401299, Date: 2025-07-07
+Notified prayers: ["Fajr", "Sunrise"]
+Checking prayer: Fajr at 03:17:00. Current time: 10:42:47.796401299
+Checking prayer: Sunrise at 05:20:00. Current time: 10:42:47.796401299
+Checking prayer: Dhuhr at 13:14:00. Current time: 10:42:47.796401299
+Checking prayer: Asr at 17:28:00. Current time: 10:42:47.796401299
+Checking prayer: Sunset at 21:08:00. Current time: 10:42:47.796401299
+Checking prayer: Maghrib at 21:08:00. Current time: 10:42:47.796401299
+Checking prayer:Current time: 10:43:04.033602066, Date: 2025-07-07
+NCurrent time: 10:43:47.798128897, Date: 2025-07-07
+Notified prayers: ["Fajr", "Sunrise"]
+Checking prayer: Fajr at 03:17:00. Current time: 10:43:47.798128897
+Checking prayer: Sunrise at 05:20:00. Current time: 10:43:47.798128897
+Checking prayer: Dhuhr at 13:14:00. Current time: 10:43:47.798128897
+Checking prayer: Asr at 17:28:00. Current time: 10:43:47.798128897
+Checking prayer: Sunset at 21:08:00. Current time: 10:43:47.798128897
+Checking prayer: Maghrib at 21:08:00. Current time: 10:43:47.798128897
+Checking prayer:Current time: 10:44:04.035667007, Date: 2025-07-07
+NCurrent time: 10:44:47.800383404, Date: 2025-07-07
+Notified prayers: ["Fajr", "Sunrise"]
+Checking prayer: Fajr at 03:17:00. Current time: 10:44:47.800383404
+Checking prayer: Sunrise at 05:20:00. Current time: 10:44:47.800383404
+Checking prayer: Dhuhr at 13:14:00. Current time: 10:44:47.800383404
+Checking prayer: Asr at 17:28:00. Current time: 10:44:47.800383404
+Checking prayer: Sunset at 21:08:00. Current time: 10:44:47.800383404
+Checking prayer: Maghrib at 21:08:00. Current time: 10:44:47.800383404
+Checking prayer:Current time: 10:45:04.037696140, Date: 2025-07-07
+NCurrent time: 10:45:47.801792652, Date: 2025-07-07
+Notified prayers: ["Fajr", "Sunrise"]
+Checking prayer: Fajr at 03:17:00. Current time: 10:45:47.801792652
+Checking prayer: Sunrise at 05:20:00. Current time: 10:45:47.801792652
+Checking prayer: Dhuhr at 13:14:00. Current time: 10:45:47.801792652
+Checking prayer: Asr at 17:28:00. Current time: 10:45:47.801792652
+Checking prayer: Sunset at 21:08:00. Current time: 10:45:47.801792652
+Checking prayer: Maghrib at 21:08:00. Current time: 10:45:47.801792652
+Checking prayer:Current time: 10:46:04.039638211, Date: 2025-07-07
+NCurrent time: 10:46:47.804279379, Date: 2025-07-07
+Notified prayers: ["Fajr", "Sunrise"]
+Checking prayer: Fajr at 03:17:00. Current time: 10:46:47.804279379
+Checking prayer: Sunrise at 05:20:00. Current time: 10:46:47.804279379
+Checking prayer: Dhuhr at 13:14:00. Current time: 10:46:47.804279379
+Checking prayer: Asr at 17:28:00. Current time: 10:46:47.804279379
+Checking prayer: Sunset at 21:08:00. Current time: 10:46:47.804279379
+Checking prayer: Maghrib at 21:08:00. Current time: 10:46:47.804279379
+Checking prayer:Current time: 10:47:04.041592933, Date: 2025-07-07
+NCurrent time: 10:47:47.805194248, Date: 2025-07-07
+Notified prayers: ["Fajr", "Sunrise"]
+Checking prayer: Fajr at 03:17:00. Current time: 10:47:47.805194248
+Checking prayer: Sunrise at 05:20:00. Current time: 10:47:47.805194248
+Checking prayer: Dhuhr at 13:14:00. Current time: 10:47:47.805194248
+Checking prayer: Asr at 17:28:00. Current time: 10:47:47.805194248
+Checking prayer: Sunset at 21:08:00. Current time: 10:47:47.805194248
+Checking prayer: Maghrib at 21:08:00. Current time: 10:47:47.805194248
+Checking prayer:Current time: 10:48:04.077039805, Date: 2025-07-07
+NCurrent time: 10:48:47.807291437, Date: 2025-07-07
+Notified prayers: ["Fajr", "Sunrise"]
+Checking prayer: Fajr at 03:17:00. Current time: 10:48:47.807291437
+Checking prayer: Sunrise at 05:20:00. Current time: 10:48:47.807291437
+Checking prayer: Dhuhr at 13:14:00. Current time: 10:48:47.807291437
+Checking prayer: Asr at 17:28:00. Current time: 10:48:47.807291437
+Checking prayer: Sunset at 21:08:00. Current time: 10:48:47.807291437
+Checking prayer: Maghrib at 21:08:00. Current time: 10:48:47.807291437
+Checking prayer:Current time: 10:49:04.078431010, Date: 2025-07-07
+NCurrent time: 10:49:47.808054610, Date: 2025-07-07
+Notified prayers: ["Fajr", "Sunrise"]
+Checking prayer: Fajr at 03:17:00. Current time: 10:49:47.808054610
+Checking prayer: Sunrise at 05:20:00. Current time: 10:49:47.808054610
+Checking prayer: Dhuhr at 13:14:00. Current time: 10:49:47.808054610
+Checking prayer: Asr at 17:28:00. Current time: 10:49:47.808054610
+Checking prayer: Sunset at 21:08:00. Current time: 10:49:47.808054610
+Checking prayer: Maghrib at 21:08:00. Current time: 10:49:47.808054610
+Checking prayer:Current time: 10:50:04.078825321, Date: 2025-07-07
+NCurrent time: 10:50:47.809070253, Date: 2025-07-07
+Notified prayers: ["Fajr", "Sunrise"]
+Checking prayer: Fajr at 03:17:00. Current time: 10:50:47.809070253
+Checking prayer: Sunrise at 05:20:00. Current time: 10:50:47.809070253
+Checking prayer: Dhuhr at 13:14:00. Current time: 10:50:47.809070253
+Checking prayer: Asr at 17:28:00. Current time: 10:50:47.809070253
+Checking prayer: Sunset at 21:08:00. Current time: 10:50:47.809070253
+Checking prayer: Maghrib at 21:08:00. Current time: 10:50:47.809070253
+Checking prayer:Current time: 10:51:04.080219025, Date: 2025-07-07
+NCurrent time: 10:51:47.810697857, Date: 2025-07-07
+Notified prayers: ["Fajr", "Sunrise"]
+Checking prayer: Fajr at 03:17:00. Current time: 10:51:47.810697857
+Checking prayer: Sunrise at 05:20:00. Current time: 10:51:47.810697857
+Checking prayer: Dhuhr at 13:14:00. Current time: 10:51:47.810697857
+Checking prayer: Asr at 17:28:00. Current time: 10:51:47.810697857
+Checking prayer: Sunset at 21:08:00. Current time: 10:51:47.810697857
+Checking prayer: Maghrib at 21:08:00. Current time: 10:51:47.810697857
+Checking prayer:Current time: 10:52:04.084177059, Date: 2025-07-07
+NCurrent time: 10:52:47.812697516, Date: 2025-07-07
+Notified prayers: ["Fajr", "Sunrise"]
+Checking prayer: Fajr at 03:17:00. Current time: 10:52:47.812697516
+Checking prayer: Sunrise at 05:20:00. Current time: 10:52:47.812697516
+Checking prayer: Dhuhr at 13:14:00. Current time: 10:52:47.812697516
+Checking prayer: Asr at 17:28:00. Current time: 10:52:47.812697516
+Checking prayer: Sunset at 21:08:00. Current time: 10:52:47.812697516
+Checking prayer: Maghrib at 21:08:00. Current time: 10:52:47.812697516
+Checking prayer:Current time: 10:53:04.085395460, Date: 2025-07-07
+NCurrent time: 10:53:47.815437467, Date: 2025-07-07
+Notified prayers: ["Fajr", "Sunrise"]
+Checking prayer: Fajr at 03:17:00. Current time: 10:53:47.815437467
+Checking prayer: Sunrise at 05:20:00. Current time: 10:53:47.815437467
+Checking prayer: Dhuhr at 13:14:00. Current time: 10:53:47.815437467
+Checking prayer: Asr at 17:28:00. Current time: 10:53:47.815437467
+Checking prayer: Sunset at 21:08:00. Current time: 10:53:47.815437467
+Checking prayer: Maghrib at 21:08:00. Current time: 10:53:47.815437467
+Checking prayer:Current time: 10:54:04.085952243, Date: 2025-07-07
+NCurrent time: 10:54:47.817127902, Date: 2025-07-07
+Notified prayers: ["Fajr", "Sunrise"]
+Checking prayer: Fajr at 03:17:00. Current time: 10:54:47.817127902
+Checking prayer: Sunrise at 05:20:00. Current time: 10:54:47.817127902
+Checking prayer: Dhuhr at 13:14:00. Current time: 10:54:47.817127902
+Checking prayer: Asr at 17:28:00. Current time: 10:54:47.817127902
+Checking prayer: Sunset at 21:08:00. Current time: 10:54:47.817127902
+Checking prayer: Maghrib at 21:08:00. Current time: 10:54:47.817127902
+Checking prayer:Current time: 10:55:04.087241872, Date: 2025-07-07
+NCurrent time: 10:55:47.817902524, Date: 2025-07-07
+Notified prayers: ["Fajr", "Sunrise"]
+Checking prayer: Fajr at 03:17:00. Current time: 10:55:47.817902524
+Checking prayer: Sunrise at 05:20:00. Current time: 10:55:47.817902524
+Checking prayer: Dhuhr at 13:14:00. Current time: 10:55:47.817902524
+Checking prayer: Asr at 17:28:00. Current time: 10:55:47.817902524
+Checking prayer: Sunset at 21:08:00. Current time: 10:55:47.817902524
+Checking prayer: Maghrib at 21:08:00. Current time: 10:55:47.817902524
+Checking prayer:Current time: 10:56:04.088167332, Date: 2025-07-07
+NCurrent time: 10:56:47.819085915, Date: 2025-07-07
+Notified prayers: ["Fajr", "Sunrise"]
+Checking prayer: Fajr at 03:17:00. Current time: 10:56:47.819085915
+Checking prayer: Sunrise at 05:20:00. Current time: 10:56:47.819085915
+Checking prayer: Dhuhr at 13:14:00. Current time: 10:56:47.819085915
+Checking prayer: Asr at 17:28:00. Current time: 10:56:47.819085915
+Checking prayer: Sunset at 21:08:00. Current time: 10:56:47.819085915
+Checking prayer: Maghrib at 21:08:00. Current time: 10:56:47.819085915
+Checking prayer:Current time: 10:57:04.089672904, Date: 2025-07-07
+NCurrent time: 10:57:47.820143534, Date: 2025-07-07
+Notified prayers: ["Fajr", "Sunrise"]
+Checking prayer: Fajr at 03:17:00. Current time: 10:57:47.820143534
+Checking prayer: Sunrise at 05:20:00. Current time: 10:57:47.820143534
+Checking prayer: Dhuhr at 13:14:00. Current time: 10:57:47.820143534
+Checking prayer: Asr at 17:28:00. Current time: 10:57:47.820143534
+Checking prayer: Sunset at 21:08:00. Current time: 10:57:47.820143534
+Checking prayer: Maghrib at 21:08:00. Current time: 10:57:47.820143534
+Checking prayer:Current time: 10:58:04.091207789, Date: 2025-07-07
+NCurrent time: 10:58:47.821006718, Date: 2025-07-07
+Notified prayers: ["Fajr", "Sunrise"]
+Checking prayer: Fajr at 03:17:00. Current time: 10:58:47.821006718
+Checking prayer: Sunrise at 05:20:00. Current time: 10:58:47.821006718
+Checking prayer: Dhuhr at 13:14:00. Current time: 10:58:47.821006718
+Checking prayer: Asr at 17:28:00. Current time: 10:58:47.821006718
+Checking prayer: Sunset at 21:08:00. Current time: 10:58:47.821006718
+Checking prayer: Maghrib at 21:08:00. Current time: 10:58:47.821006718
+Checking prayer:Current time: 10:59:04.092683944, Date: 2025-07-07
+NCurrent time: 10:59:47.822676518, Date: 2025-07-07
+Notified prayers: ["Fajr", "Sunrise"]
+Checking prayer: Fajr at 03:17:00. Current time: 10:59:47.822676518
+Checking prayer: Sunrise at 05:20:00. Current time: 10:59:47.822676518
+Checking prayer: Dhuhr at 13:14:00. Current time: 10:59:47.822676518
+Checking prayer: Asr at 17:28:00. Current time: 10:59:47.822676518
+Checking prayer: Sunset at 21:08:00. Current time: 10:59:47.822676518
+Checking prayer: Maghrib at 21:08:00. Current time: 10:59:47.822676518
+Checking prayer:Current time: 11:00:04.094606168, Date: 2025-07-07
+NCurrent time: 11:00:47.824704477, Date: 2025-07-07
+Notified prayers: ["Fajr", "Sunrise"]
+Checking prayer: Fajr at 03:17:00. Current time: 11:00:47.824704477
+Checking prayer: Sunrise at 05:20:00. Current time: 11:00:47.824704477
+Checking prayer: Dhuhr at 13:14:00. Current time: 11:00:47.824704477
+Checking prayer: Asr at 17:28:00. Current time: 11:00:47.824704477
+Checking prayer: Sunset at 21:08:00. Current time: 11:00:47.824704477
+Checking prayer: Maghrib at 21:08:00. Current time: 11:00:47.824704477
+Checking prayer:Current time: 11:01:04.095885507, Date: 2025-07-07
+NCurrent time: 11:01:47.826206140, Date: 2025-07-07
+Notified prayers: ["Fajr", "Sunrise"]
+Checking prayer: Fajr at 03:17:00. Current time: 11:01:47.826206140
+Checking prayer: Sunrise at 05:20:00. Current time: 11:01:47.826206140
+Checking prayer: Dhuhr at 13:14:00. Current time: 11:01:47.826206140
+Checking prayer: Asr at 17:28:00. Current time: 11:01:47.826206140
+Checking prayer: Sunset at 21:08:00. Current time: 11:01:47.826206140
+Checking prayer: Maghrib at 21:08:00. Current time: 11:01:47.826206140
+Checking prayer:Current time: 11:02:04.097420172, Date: 2025-07-07
+NCurrent time: 11:02:47.827227627, Date: 2025-07-07
+Notified prayers: ["Fajr", "Sunrise"]
+Checking prayer: Fajr at 03:17:00. Current time: 11:02:47.827227627
+Checking prayer: Sunrise at 05:20:00. Current time: 11:02:47.827227627
+Checking prayer: Dhuhr at 13:14:00. Current time: 11:02:47.827227627
+Checking prayer: Asr at 17:28:00. Current time: 11:02:47.827227627
+Checking prayer: Sunset at 21:08:00. Current time: 11:02:47.827227627
+Checking prayer: Maghrib at 21:08:00. Current time: 11:02:47.827227627
+Checking prayer:Current time: 11:03:04.100060346, Date: 2025-07-07
+NCurrent time: 11:03:47.828190494, Date: 2025-07-07
+Notified prayers: ["Fajr", "Sunrise"]
+Checking prayer: Fajr at 03:17:00. Current time: 11:03:47.828190494
+Checking prayer: Sunrise at 05:20:00. Current time: 11:03:47.828190494
+Checking prayer: Dhuhr at 13:14:00. Current time: 11:03:47.828190494
+Checking prayer: Asr at 17:28:00. Current time: 11:03:47.828190494
+Checking prayer: Sunset at 21:08:00. Current time: 11:03:47.828190494
+Checking prayer: Maghrib at 21:08:00. Current time: 11:03:47.828190494
+Checking prayer:Current time: 11:04:04.101125925, Date: 2025-07-07
+NCurrent time: 11:04:47.829588029, Date: 2025-07-07
+Notified prayers: ["Fajr", "Sunrise"]
+Checking prayer: Fajr at 03:17:00. Current time: 11:04:47.829588029
+Checking prayer: Sunrise at 05:20:00. Current time: 11:04:47.829588029
+Checking prayer: Dhuhr at 13:14:00. Current time: 11:04:47.829588029
+Checking prayer: Asr at 17:28:00. Current time: 11:04:47.829588029
+Checking prayer: Sunset at 21:08:00. Current time: 11:04:47.829588029
+Checking prayer: Maghrib at 21:08:00. Current time: 11:04:47.829588029
+Checking prayer:Current time: 11:05:04.102737173, Date: 2025-07-07
+NCurrent time: 11:05:47.834071831, Date: 2025-07-07
+Notified prayers: ["Fajr", "Sunrise"]
+Checking prayer: Fajr at 03:17:00. Current time: 11:05:47.834071831
+Checking prayer: Sunrise at 05:20:00. Current time: 11:05:47.834071831
+Checking prayer: Dhuhr at 13:14:00. Current time: 11:05:47.834071831
+Checking prayer: Asr at 17:28:00. Current time: 11:05:47.834071831
+Checking prayer: Sunset at 21:08:00. Current time: 11:05:47.834071831
+Checking prayer: Maghrib at 21:08:00. Current time: 11:05:47.834071831
+Checking prayer:Current time: 11:06:04.104170703, Date: 2025-07-07
+NCurrent time: 11:06:47.835745371, Date: 2025-07-07
+Notified prayers: ["Fajr", "Sunrise"]
+Checking prayer: Fajr at 03:17:00. Current time: 11:06:47.835745371
+Checking prayer: Sunrise at 05:20:00. Current time: 11:06:47.835745371
+Checking prayer: Dhuhr at 13:14:00. Current time: 11:06:47.835745371
+Checking prayer: Asr at 17:28:00. Current time: 11:06:47.835745371
+Checking prayer: Sunset at 21:08:00. Current time: 11:06:47.835745371
+Checking prayer: Maghrib at 21:08:00. Current time: 11:06:47.835745371
+Checking prayer:Current time: 11:07:04.106227268, Date: 2025-07-07
+NCurrent time: 11:07:47.838001012, Date: 2025-07-07
+Notified prayers: ["Fajr", "Sunrise"]
+Checking prayer: Fajr at 03:17:00. Current time: 11:07:47.838001012
+Checking prayer: Sunrise at 05:20:00. Current time: 11:07:47.838001012
+Checking prayer: Dhuhr at 13:14:00. Current time: 11:07:47.838001012
+Checking prayer: Asr at 17:28:00. Current time: 11:07:47.838001012
+Checking prayer: Sunset at 21:08:00. Current time: 11:07:47.838001012
+Checking prayer: Maghrib at 21:08:00. Current time: 11:07:47.838001012
+Checking prayer:Current time: 11:08:04.108061757, Date: 2025-07-07
+NCurrent time: 11:08:47.840269425, Date: 2025-07-07
+Notified prayers: ["Fajr", "Sunrise"]
+Checking prayer: Fajr at 03:17:00. Current time: 11:08:47.840269425
+Checking prayer: Sunrise at 05:20:00. Current time: 11:08:47.840269425
+Checking prayer: Dhuhr at 13:14:00. Current time: 11:08:47.840269425
+Checking prayer: Asr at 17:28:00. Current time: 11:08:47.840269425
+Checking prayer: Sunset at 21:08:00. Current time: 11:08:47.840269425
+Checking prayer: Maghrib at 21:08:00. Current time: 11:08:47.840269425
+Checking prayer:Current time: 11:09:04.109788323, Date: 2025-07-07
+NCurrent time: 11:09:47.842210590, Date: 2025-07-07
+Notified prayers: ["Fajr", "Sunrise"]
+Checking prayer: Fajr at 03:17:00. Current time: 11:09:47.842210590
+Checking prayer: Sunrise at 05:20:00. Current time: 11:09:47.842210590
+Checking prayer: Dhuhr at 13:14:00. Current time: 11:09:47.842210590
+Checking prayer: Asr at 17:28:00. Current time: 11:09:47.842210590
+Checking prayer: Sunset at 21:08:00. Current time: 11:09:47.842210590
+Checking prayer: Maghrib at 21:08:00. Current time: 11:09:47.842210590
+Checking prayer:Current time: 11:10:04.111634522, Date: 2025-07-07
+NCurrent time: 11:10:47.843597186, Date: 2025-07-07
+Notified prayers: ["Fajr", "Sunrise"]
+Checking prayer: Fajr at 03:17:00. Current time: 11:10:47.843597186
+Checking prayer: Sunrise at 05:20:00. Current time: 11:10:47.843597186
+Checking prayer: Dhuhr at 13:14:00. Current time: 11:10:47.843597186
+Checking prayer: Asr at 17:28:00. Current time: 11:10:47.843597186
+Checking prayer: Sunset at 21:08:00. Current time: 11:10:47.843597186
+Checking prayer: Maghrib at 21:08:00. Current time: 11:10:47.843597186
+Checking prayer:Current time: 11:11:04.116931600, Date: 2025-07-07
+NCurrent time: 11:11:47.846196439, Date: 2025-07-07
+Notified prayers: ["Fajr", "Sunrise"]
+Checking prayer: Fajr at 03:17:00. Current time: 11:11:47.846196439
+Checking prayer: Sunrise at 05:20:00. Current time: 11:11:47.846196439
+Checking prayer: Dhuhr at 13:14:00. Current time: 11:11:47.846196439
+Checking prayer: Asr at 17:28:00. Current time: 11:11:47.846196439
+Checking prayer: Sunset at 21:08:00. Current time: 11:11:47.846196439
+Checking prayer: Maghrib at 21:08:00. Current time: 11:11:47.846196439
+Checking prayer:Current time: 11:12:04.119464210, Date: 2025-07-07
+NCurrent time: 11:12:47.847684642, Date: 2025-07-07
+Notified prayers: ["Fajr", "Sunrise"]
+Checking prayer: Fajr at 03:17:00. Current time: 11:12:47.847684642
+Checking prayer: Sunrise at 05:20:00. Current time: 11:12:47.847684642
+Checking prayer: Dhuhr at 13:14:00. Current time: 11:12:47.847684642
+Checking prayer: Asr at 17:28:00. Current time: 11:12:47.847684642
+Checking prayer: Sunset at 21:08:00. Current time: 11:12:47.847684642
+Checking prayer: Maghrib at 21:08:00. Current time: 11:12:47.847684642
+Checking prayer:Current time: 11:13:04.121358174, Date: 2025-07-07
+NCurrent time: 11:13:47.850223026, Date: 2025-07-07
+Notified prayers: ["Fajr", "Sunrise"]
+Checking prayer: Fajr at 03:17:00. Current time: 11:13:47.850223026
+Checking prayer: Sunrise at 05:20:00. Current time: 11:13:47.850223026
+Checking prayer: Dhuhr at 13:14:00. Current time: 11:13:47.850223026
+Checking prayer: Asr at 17:28:00. Current time: 11:13:47.850223026
+Checking prayer: Sunset at 21:08:00. Current time: 11:13:47.850223026
+Checking prayer: Maghrib at 21:08:00. Current time: 11:13:47.850223026
+Checking prayer:Current time: 11:14:04.122818097, Date: 2025-07-07
+NCurrent time: 11:14:47.851144927, Date: 2025-07-07
+Notified prayers: ["Fajr", "Sunrise"]
+Checking prayer: Fajr at 03:17:00. Current time: 11:14:47.851144927
+Checking prayer: Sunrise at 05:20:00. Current time: 11:14:47.851144927
+Checking prayer: Dhuhr at 13:14:00. Current time: 11:14:47.851144927
+Checking prayer: Asr at 17:28:00. Current time: 11:14:47.851144927
+Checking prayer: Sunset at 21:08:00. Current time: 11:14:47.851144927
+Checking prayer: Maghrib at 21:08:00. Current time: 11:14:47.851144927
+Checking prayer:Current time: 11:15:04.124723311, Date: 2025-07-07
+NCurrent time: 11:15:47.852157249, Date: 2025-07-07
+Notified prayers: ["Fajr", "Sunrise"]
+Checking prayer: Fajr at 03:17:00. Current time: 11:15:47.852157249
+Checking prayer: Sunrise at 05:20:00. Current time: 11:15:47.852157249
+Checking prayer: Dhuhr at 13:14:00. Current time: 11:15:47.852157249
+Checking prayer: Asr at 17:28:00. Current time: 11:15:47.852157249
+Checking prayer: Sunset at 21:08:00. Current time: 11:15:47.852157249
+Checking prayer: Maghrib at 21:08:00. Current time: 11:15:47.852157249
+Checking prayer:Current time: 11:16:04.125824183, Date: 2025-07-07
+NCurrent time: 11:16:47.853779220, Date: 2025-07-07
+Notified prayers: ["Fajr", "Sunrise"]
+Checking prayer: Fajr at 03:17:00. Current time: 11:16:47.853779220
+Checking prayer: Sunrise at 05:20:00. Current time: 11:16:47.853779220
+Checking prayer: Dhuhr at 13:14:00. Current time: 11:16:47.853779220
+Checking prayer: Asr at 17:28:00. Current time: 11:16:47.853779220
+Checking prayer: Sunset at 21:08:00. Current time: 11:16:47.853779220
+Checking prayer: Maghrib at 21:08:00. Current time: 11:16:47.853779220
+Checking prayer:Current time: 11:17:04.127557445, Date: 2025-07-07
+NCurrent time: 11:17:47.855543302, Date: 2025-07-07
+Notified prayers: ["Fajr", "Sunrise"]
+Checking prayer: Fajr at 03:17:00. Current time: 11:17:47.855543302
+Checking prayer: Sunrise at 05:20:00. Current time: 11:17:47.855543302
+Checking prayer: Dhuhr at 13:14:00. Current time: 11:17:47.855543302
+Checking prayer: Asr at 17:28:00. Current time: 11:17:47.855543302
+Checking prayer: Sunset at 21:08:00. Current time: 11:17:47.855543302
+Checking prayer: Maghrib at 21:08:00. Current time: 11:17:47.855543302
+Checking prayer:Current time: 11:18:04.129139118, Date: 2025-07-07
+NCurrent time: 11:18:47.857233145, Date: 2025-07-07
+Notified prayers: ["Fajr", "Sunrise"]
+Checking prayer: Fajr at 03:17:00. Current time: 11:18:47.857233145
+Checking prayer: Sunrise at 05:20:00. Current time: 11:18:47.857233145
+Checking prayer: Dhuhr at 13:14:00. Current time: 11:18:47.857233145
+Checking prayer: Asr at 17:28:00. Current time: 11:18:47.857233145
+Checking prayer: Sunset at 21:08:00. Current time: 11:18:47.857233145
+Checking prayer: Maghrib at 21:08:00. Current time: 11:18:47.857233145
+Checking prayer:Current time: 11:19:04.130698712, Date: 2025-07-07
+NCurrent time: 11:19:47.858444715, Date: 2025-07-07
+Notified prayers: ["Fajr", "Sunrise"]
+Checking prayer: Fajr at 03:17:00. Current time: 11:19:47.858444715
+Checking prayer: Sunrise at 05:20:00. Current time: 11:19:47.858444715
+Checking prayer: Dhuhr at 13:14:00. Current time: 11:19:47.858444715
+Checking prayer: Asr at 17:28:00. Current time: 11:19:47.858444715
+Checking prayer: Sunset at 21:08:00. Current time: 11:19:47.858444715
+Checking prayer: Maghrib at 21:08:00. Current time: 11:19:47.858444715
+Checking prayer:Current time: 11:20:04.132275025, Date: 2025-07-07
+NCurrent time: 11:20:47.859249874, Date: 2025-07-07
+Notified prayers: ["Fajr", "Sunrise"]
+Checking prayer: Fajr at 03:17:00. Current time: 11:20:47.859249874
+Checking prayer: Sunrise at 05:20:00. Current time: 11:20:47.859249874
+Checking prayer: Dhuhr at 13:14:00. Current time: 11:20:47.859249874
+Checking prayer: Asr at 17:28:00. Current time: 11:20:47.859249874
+Checking prayer: Sunset at 21:08:00. Current time: 11:20:47.859249874
+Checking prayer: Maghrib at 21:08:00. Current time: 11:20:47.859249874
+Checking prayer:Current time: 11:21:04.132859390, Date: 2025-07-07
+NCurrent time: 11:21:47.861166909, Date: 2025-07-07
+Notified prayers: ["Fajr", "Sunrise"]
+Checking prayer: Fajr at 03:17:00. Current time: 11:21:47.861166909
+Checking prayer: Sunrise at 05:20:00. Current time: 11:21:47.861166909
+Checking prayer: Dhuhr at 13:14:00. Current time: 11:21:47.861166909
+Checking prayer: Asr at 17:28:00. Current time: 11:21:47.861166909
+Checking prayer: Sunset at 21:08:00. Current time: 11:21:47.861166909
+Checking prayer: Maghrib at 21:08:00. Current time: 11:21:47.861166909
+Checking prayer:Current time: 11:22:04.135109319, Date: 2025-07-07
+NCurrent time: 11:22:47.922122334, Date: 2025-07-07
+Notified prayers: ["Fajr", "Sunrise"]
+Checking prayer: Fajr at 03:17:00. Current time: 11:22:47.922122334
+Checking prayer: Sunrise at 05:20:00. Current time: 11:22:47.922122334
+Checking prayer: Dhuhr at 13:14:00. Current time: 11:22:47.922122334
+Checking prayer: Asr at 17:28:00. Current time: 11:22:47.922122334
+Checking prayer: Sunset at 21:08:00. Current time: 11:22:47.922122334
+Checking prayer: Maghrib at 21:08:00. Current time: 11:22:47.922122334
+Checking prayer:Current time: 11:23:04.136292776, Date: 2025-07-07
+NCurrent time: 11:23:47.923422183, Date: 2025-07-07
+Notified prayers: ["Fajr", "Sunrise"]
+Checking prayer: Fajr at 03:17:00. Current time: 11:23:47.923422183
+Checking prayer: Sunrise at 05:20:00. Current time: 11:23:47.923422183
+Checking prayer: Dhuhr at 13:14:00. Current time: 11:23:47.923422183
+Checking prayer: Asr at 17:28:00. Current time: 11:23:47.923422183
+Checking prayer: Sunset at 21:08:00. Current time: 11:23:47.923422183
+Checking prayer: Maghrib at 21:08:00. Current time: 11:23:47.923422183
+Checking prayer:Current time: 11:24:04.137289582, Date: 2025-07-07
+NCurrent time: 11:24:47.924069090, Date: 2025-07-07
+Notified prayers: ["Fajr", "Sunrise"]
+Checking prayer: Fajr at 03:17:00. Current time: 11:24:47.924069090
+Checking prayer: Sunrise at 05:20:00. Current time: 11:24:47.924069090
+Checking prayer: Dhuhr at 13:14:00. Current time: 11:24:47.924069090
+Checking prayer: Asr at 17:28:00. Current time: 11:24:47.924069090
+Checking prayer: Sunset at 21:08:00. Current time: 11:24:47.924069090
+Checking prayer: Maghrib at 21:08:00. Current time: 11:24:47.924069090
+Checking prayer:Current time: 11:25:04.138304164, Date: 2025-07-07
+NCurrent time: 11:25:47.925722484, Date: 2025-07-07
+Notified prayers: ["Fajr", "Sunrise"]
+Checking prayer: Fajr at 03:17:00. Current time: 11:25:47.925722484
+Checking prayer: Sunrise at 05:20:00. Current time: 11:25:47.925722484
+Checking prayer: Dhuhr at 13:14:00. Current time: 11:25:47.925722484
+Checking prayer: Asr at 17:28:00. Current time: 11:25:47.925722484
+Checking prayer: Sunset at 21:08:00. Current time: 11:25:47.925722484
+Checking prayer: Maghrib at 21:08:00. Current time: 11:25:47.925722484
+Checking prayer: Isha at 23:11:00. Current time: 11:25:47.925722484

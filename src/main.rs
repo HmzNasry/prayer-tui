@@ -300,19 +300,23 @@ async fn run_app(tui: &mut Tui) -> Result<(), Box<dyn std::error::Error + Send +
             let sunset_time = NaiveTime::parse_from_str(&prayer_times.sunset, "%H:%M").unwrap();
 
             let is_sunrise = now_time >= sunrise_time && now_time < sunset_time;
-            let is_sunset = now_time >= sunset_time;
+            let is_sunset = now_time >= sunset_time && now_time < NaiveTime::parse_from_str(&prayer_times.isha, "%H:%M").unwrap();
 
-            let sunrise_style = if is_sunrise {
-                Style::default().fg(Color::Green).add_modifier(Modifier::BOLD)
-            } else {
-                Style::default().add_modifier(Modifier::BOLD)
-            };
+            let mut sunrise_style = Style::default().add_modifier(Modifier::BOLD);
+            if is_sunrise {
+                let maghrib_time = NaiveTime::parse_from_str(&prayer_times.maghrib, "%H:%M").unwrap();
+                if now_time < maghrib_time {
+                    sunrise_style = sunrise_style.fg(Color::Green);
+                }
+            }
 
-            let sunset_style = if is_sunset {
-                Style::default().fg(Color::Green).add_modifier(Modifier::BOLD)
-            } else {
-                Style::default().add_modifier(Modifier::BOLD)
-            };
+            let mut sunset_style = Style::default().add_modifier(Modifier::BOLD);
+            if is_sunset {
+                let maghrib_time = NaiveTime::parse_from_str(&prayer_times.maghrib, "%H:%M").unwrap();
+                if now_time >= maghrib_time + chrono::Duration::minutes(1) {
+                    sunset_style = sunset_style.fg(Color::Green);
+                }
+            }
 
             let sunrise_box_layout = Layout::default()
                 .direction(Direction::Vertical)
