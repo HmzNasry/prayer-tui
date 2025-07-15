@@ -246,8 +246,7 @@ async fn run_app(tui: &mut Tui) -> Result<(), Box<dyn std::error::Error + Send +
                 ])
                 .split(prayer_area);
 
-            let sunrise_time = NaiveTime::parse_from_str(&prayer_times.sunrise, "%H:%M").unwrap();
-            let sunset_time = NaiveTime::parse_from_str(&prayer_times.sunset, "%H:%M").unwrap();
+            let (current_prayer_name, _) = prayers[actual_current_prayer_index];
 
             for (i, (name, time)) in prayers.iter().enumerate() {
                 let _prayer_index = i + 1;
@@ -255,11 +254,7 @@ async fn run_app(tui: &mut Tui) -> Result<(), Box<dyn std::error::Error + Send +
                 let mut style = Style::default().add_modifier(Modifier::BOLD);
 
                 if is_current_prayer {
-                    if *name == "Fajr" && now_time >= sunrise_time && now_time < NaiveTime::parse_from_str(&prayer_times.dhuhr, "%H:%M").unwrap() {
-                    } else if (*name == "Asr" || *name == "Maghrib") && now_time >= sunset_time && now_time < NaiveTime::parse_from_str(&prayer_times.isha, "%H:%M").unwrap() {
-                    } else {
-                        style = style.fg(Color::Green);
-                    }
+                    style = style.fg(Color::Green);
                 }
 
                 let prayer_box_layout = Layout::default()
@@ -303,19 +298,13 @@ async fn run_app(tui: &mut Tui) -> Result<(), Box<dyn std::error::Error + Send +
             let is_sunset = now_time >= sunset_time && now_time < NaiveTime::parse_from_str(&prayer_times.isha, "%H:%M").unwrap();
 
             let mut sunrise_style = Style::default().add_modifier(Modifier::BOLD);
-            if is_sunrise {
-                let maghrib_time = NaiveTime::parse_from_str(&prayer_times.maghrib, "%H:%M").unwrap();
-                if now_time < maghrib_time {
-                    sunrise_style = sunrise_style.fg(Color::Green);
-                }
+            if is_sunrise && current_prayer_name != "Fajr" {
+                sunrise_style = sunrise_style.fg(Color::Green);
             }
 
             let mut sunset_style = Style::default().add_modifier(Modifier::BOLD);
-            if is_sunset {
-                let maghrib_time = NaiveTime::parse_from_str(&prayer_times.maghrib, "%H:%M").unwrap();
-                if now_time >= maghrib_time + chrono::Duration::minutes(1) {
-                    sunset_style = sunset_style.fg(Color::Green);
-                }
+            if is_sunset && current_prayer_name != "Maghrib" {
+                sunset_style = sunset_style.fg(Color::Green);
             }
 
             let sunrise_box_layout = Layout::default()
